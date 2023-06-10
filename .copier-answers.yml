@@ -1,0 +1,21 @@
+# Do NOT update manually; changes here will be overwritten by Copier
+_commit: v1.14.2
+_src_path: https://github.com/OCA/oca-addons-repo-template.git
+ci: GitHub
+generate_requirements_txt: true
+github_check_license: true
+github_ci_extra_env: {}
+github_enable_codecov: true
+github_enable_makepot: true
+github_enable_stale_action: false
+github_enforce_dev_status_compatibility: true
+include_wkhtmltopdf: true
+odoo_version: 16.0
+org_name: Lambdao
+org_slug: lambdao-dev
+rebel_module_groups: []
+repo_description: Lambdao Internal Odoo Addons (that could go in OCA)
+repo_name: Lambdao Internal Odoo Addons (that could go in OCA)
+repo_slug: odoo-lambdao-addons
+repo_website: https://lambdao.dev
+
