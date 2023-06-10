@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 fah-mili/Lambdao
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <record id="sale_timesheet.timesheet_report_account_move" model="ir.actions.report">
+        <field name="name">Invoice Timesheets</field>
+        <field
+            name="print_report_name"
+        >((object.name or 'INV').replace('/','_')+'_Timesheets')</field>
+    </record>
+</odoo>
