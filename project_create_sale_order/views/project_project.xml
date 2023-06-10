@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 len-foss/Financial Way
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+  <record model="ir.ui.view" id="view_form_project_project">
+    <field name="model">project.project</field>
+    <field name="inherit_id" ref="project.edit_project" />
+    <field name="name">project.project.form.sos</field>
+    <field name="arch" type="xml">
+        <xpath expr="//header" position="inside">
+            <button
+                    name="action_make_billable"
+                    string="Make Billable"
+                    class="primary"
+                    type="object"
+                    attrs="{'invisible': [('sale_order_id', '!=', False)]}"
+                />
+        </xpath>
+    </field>
+  </record>
+</odoo>
