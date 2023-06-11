@@ -17,7 +17,13 @@ Lambdao Internal Odoo Addons (that could go in OCA)
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[mail_multiple_reports](mail_multiple_reports/) | 16.0.1.0.0 |  | Mail Multiple Reports
+[project_create_sale_order](project_create_sale_order/) | 16.0.0.0.0 |  | Project: Make Billable
+[sale_timesheet_multiple_reports](sale_timesheet_multiple_reports/) | 16.0.1.0.0 |  | Mail Multiple Reports
 
 [//]: # (end addons)
 
