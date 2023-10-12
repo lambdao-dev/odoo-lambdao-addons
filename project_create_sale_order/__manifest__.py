@@ -7,9 +7,9 @@
     "author": "Lambdao, len-foss, Financial Way, Odoo Community Association (OCA)",
     "website": "https://lambdao.dev",
     "category": "project",
-    "version": "16.0.0.0.0",
+    "version": "16.0.1.0.0",
     "license": "AGPL-3",
-    "depends": ["project"],
+    "depends": ["project", "sale_timesheet"],
     "data": ["views/project_project.xml"],
     "application": True,
 }
