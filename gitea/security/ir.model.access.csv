@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gitea_backend_user,access_gitea_backend_user,model_gitea_backend,base.group_user,1,0,0,0
+access_gitea_backend_manager,access_gitea_backend_manager,model_gitea_backend,group_gitea_manager,1,1,1,1
+access_gitea_repository_user,access_gitea_repository_user,model_gitea_repository,base.group_user,1,0,0,0
+access_gitea_repository_manager,access_gitea_repository_manager,model_gitea_repository,group_gitea_manager,1,1,1,1
