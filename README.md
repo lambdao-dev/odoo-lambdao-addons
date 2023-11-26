@@ -21,8 +21,10 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[gitea](gitea/) | 16.0.1.0.0 |  | Gitea base
+[gitea_project](gitea_project/) | 16.0.1.0.0 |  | Gitea Project
 [mail_multiple_reports](mail_multiple_reports/) | 16.0.1.0.0 |  | Mail Multiple Reports
-[project_create_sale_order](project_create_sale_order/) | 16.0.0.0.0 |  | Project: Make Billable
+[project_create_sale_order](project_create_sale_order/) | 16.0.1.0.0 |  | Project: Make Billable
 [sale_timesheet_multiple_reports](sale_timesheet_multiple_reports/) | 16.0.1.0.0 |  | Mail Multiple Reports
 
 [//]: # (end addons)
