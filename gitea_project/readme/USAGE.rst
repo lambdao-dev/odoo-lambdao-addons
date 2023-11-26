@@ -1,0 +1,1 @@
+To use this module, create a Gitea backend and repository (views are currently missing for this so this should be done via code). Then a repository can be set on a project, at which point it is possible to import existing issues into tasks.
