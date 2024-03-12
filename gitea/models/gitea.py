@@ -74,7 +74,7 @@ class GiteaRepository(models.Model):
         total = int(result.headers["X-Total-Count"])
         if len(data) < total:
             total_pages = math.ceil(total / limit)
-            for page in range(1, total_pages):
+            for page in range(2, total_pages + 1):
                 params["page"] = page
                 result = requests.get(
                     url, params=params, headers=headers, timeout=TIMEOUT
