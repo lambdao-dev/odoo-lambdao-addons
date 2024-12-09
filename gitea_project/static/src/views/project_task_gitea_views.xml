@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2023 len-foss/Lambdao
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<templates>
+    <t t-name="Gitea.gitea_button" owl="1">
+        <t t-if="props.context.gitea_repository_id">
+            <button
+                type="button"
+                class="btn btn-secondary o_button_gitea"
+                t-on-click="onClickGitea"
+            >
+                Refresh Gitea
+            </button>
+        </t>
+    </t>
+
+    <t
+        t-name="GiteaListView.buttons"
+        t-inherit="web.ListView.Buttons"
+        t-inherit-mode="primary"
+        owl="1"
+    >
+        <xpath expr="//t[contains(@t-if, 'isExportEnable')]" position="before">
+            <t t-call="Gitea.gitea_button" />
+        </xpath>
+    </t>
+
+    <t
+        t-name="GiteaKanbanView.buttons"
+        t-inherit="web.KanbanView.Buttons"
+        t-inherit-mode="primary"
+        owl="1"
+    >
+        <xpath expr="//div[@t-if='props.showButtons']" position="inside">
+            <t t-call="Gitea.gitea_button" />
+        </xpath>
+    </t>
+</templates>

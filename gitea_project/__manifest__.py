@@ -5,12 +5,18 @@
 {
     "name": "Gitea Project",
     "summary": "Gitea Project",
-    "version": "16.0.1.0.0",
-    "category": "Mail",
+    "version": "16.0.1.0.1",
+    "category": "Project",
     "website": "https://lambdao.dev",
     "author": "fah-mili,Lambdao",
     "license": "AGPL-3",
     "installable": True,
     "data": ["views/project_task.xml", "views/project_project.xml"],
     "depends": ["gitea", "project"],
+    "assets": {
+        "web.assets_backend": [
+            "gitea_project/static/src/views/*.js",
+            "gitea_project/static/src/views/*.xml",
+        ],
+    },
 }

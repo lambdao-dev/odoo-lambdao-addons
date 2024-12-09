@@ -20,3 +20,9 @@ class ProjectProject(models.Model):
         )
         result["project_id"] = self.id
         return result
+
+    def action_view_tasks(self):
+        action = super().action_view_tasks()
+        if self.gitea_repository_id:
+            action["context"]["gitea_repository_id"] = self.gitea_repository_id
+        return action
