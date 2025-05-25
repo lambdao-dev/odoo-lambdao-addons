@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* gitea_project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: gitea_project
+#: model:ir.model.fields,field_description:gitea_project.field_project_task__gitea_issue_number
+msgid "Gitea Issue Number"
+msgstr ""
+
+#. module: gitea_project
+#: model:ir.model.fields,field_description:gitea_project.field_project_project__gitea_repository_id
+#: model:ir.model.fields,field_description:gitea_project.field_project_task__gitea_repository_id
+msgid "Gitea Repository"
+msgstr ""
+
+#. module: gitea_project
+#: model:ir.model.fields,field_description:gitea_project.field_project_task__gitea_status
+msgid "Gitea Status"
+msgstr ""
+
+#. module: gitea_project
+#: model_terms:ir.ui.view,arch_db:gitea_project.view_form_project_project
+msgid "Import Gitea Issues"
+msgstr ""
+
+#. module: gitea_project
+#: model:ir.model,name:gitea_project.model_project_project
+msgid "Project"
+msgstr ""
+
+#. module: gitea_project
+#. odoo-javascript
+#: code:addons/gitea_project/static/src/views/project_task_gitea_views.xml:0
+#, python-format
+msgid "Refresh Gitea"
+msgstr ""
+
+#. module: gitea_project
+#: model:ir.model,name:gitea_project.model_project_task
+msgid "Task"
+msgstr ""
