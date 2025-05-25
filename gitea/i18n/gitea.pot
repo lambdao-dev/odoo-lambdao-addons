@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* gitea
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__backend_id
+msgid "Backend"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__create_uid
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__create_date
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__display_name
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_issue_mixin__gitea_issue_number
+msgid "Gitea Issue Number"
+msgstr ""
+
+#. module: gitea
+#: model:res.groups,name:gitea.group_gitea_manager
+msgid "Gitea Manager"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository_mixin__gitea_repository_id
+msgid "Gitea Repository"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_issue_mixin__gitea_status
+msgid "Gitea Status"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model,name:gitea.model_gitea_backend
+msgid "Gitea backend"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model,name:gitea.model_gitea_issue_mixin
+msgid "Gitea issue mixin"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model,name:gitea.model_gitea_repository
+msgid "Gitea repository"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model,name:gitea.model_gitea_repository_mixin
+msgid "Gitea repository mixin"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__host
+msgid "Host"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__id
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__id
+msgid "ID"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend____last_update
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__write_uid
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__write_date
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__name
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__name
+msgid "Name"
+msgstr ""
+
+#. module: gitea
+#. odoo-python
+#: code:addons/gitea/models/gitea.py:0
+#, python-format
+msgid "No Gitea repository defined"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_repository__organization
+msgid "Organization"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__password
+msgid "Password"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__token
+msgid "Token"
+msgstr ""
+
+#. module: gitea
+#: model:ir.model.fields,field_description:gitea.field_gitea_backend__username
+msgid "Username"
+msgstr ""
